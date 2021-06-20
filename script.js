@@ -30,7 +30,7 @@ function writePassword() {
 
 var generatePassword = function(){
   var password=[];
-  var passwordLength = window.prompt("What's the length of password you need? Choose between 7 and 129 characters:");
+  var passwordLength = window.prompt("What's the length of the password you need? Choose between 7 and 129 characters:");
   
   if (!passwordLength) {
     window.alert("Please choose a number between 7 to 129. Click generate button to start over.");
